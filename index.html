@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--icons-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--link-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ONLINE MAGAZIN</title>
+</head>
+<body>
+<!--Navbar-->
+<section>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand iconco-11" href="#">
+                <img class="iconco-1" src="icons/download.svg" alt="svg">
+            </a>
+            <form class="d-flex card005">
+                <input class="form-control me-2 card006" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <div class="row card0005">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0 row d-flex row">
+                    <li class="nav-item ms-5 col-md-6  d-flex">
+                        <i class="fas fa-map-marker-alt fa-2x col-md-6 text-light"></i>
+                        <button type="button" class="btn hover-12" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                            Узбекистан
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <iframe width="500" height="500"
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.954586058322!2d69.22214506298765!3d41.28223663900701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2d901c2def%3A0x1bb221455121c6e8!2z0JPQu9Cw0LLQv9C-0YfRgtCw0LzRgg!5e0!3m2!1sru!2s!4v1615643896915!5m2!1sru!2s"
+                                                style="border:0;" allowfullscreen=""
+                                                loading="lazy"></iframe>
+                                        <a href="https://123movies-to.org"></a><br>
+                                        <a href="https://www.embedgooglemap.net"></a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ms-5 col-md-6 d-flex ">
+                        <i class="fas fa-user fa-2x col-md-6 text-light"></i>
+                        <button type="button" class="btn hover-12" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@fat">Войти
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                       aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text"></div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Message:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+                                        </button>
+                                        <button type="button" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="navbar321">
+        <div class="container">
+            <div class="container22">
+                <div class="subnav">
+                    <button class="subnavbtn  container">Гаджеты</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Наушник</a>
+                        <a href="#"><i class="fas fa-fan fa-2x"></i><br>Умни час и<br>браслет</a>
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>Powerbank</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn  container">Компьютеры</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn  container">Фото</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a class="ipd" href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a class="ipd" href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn  container">TV</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn  container">Аудио</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a class="ipd" href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a class="ipd" href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a class="ipd" href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav">
+                    <button class="subnavbtn  container">Бытовая техника</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a class="ipd" href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a class="ipd" href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav ipd">
+                    <button class="subnavbtn  container">Спорт</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav ipd">
+                    <button class="subnavbtn  container">Авто</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Наушник</a>
+                        <a href="#"><i class="fas fa-fan fa-2x"></i><br>Умни час и<br>браслет</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav ipd">
+                    <button class="subnavbtn  container">Дом</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav ipd">
+                    <button class="subnavbtn  container">Инструмент</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-desktop fa-2x"></i><br>Мониторы</a>
+                        <a href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+                <div class="subnav ipd">
+                    <button class="subnavbtn  container">Туризм</button>
+                    <div class="subnav-content">
+                        <a href="#"><i class="fas fa-battery-full fa-2x"></i><br>ПК</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Мобилнй</a>
+                        <a href="#"><i class="fas fa-mobile fa-2x"></i><br>Чехлы</a>
+                        <a href="#"><i class="fas fa-headphones fa-2x"></i><br>Careers</a>
+                        <a href="#"><i class="fas fa-laptop fa-2x"></i><br>Ноутбуки</a>
+                        <a href="#"><i class="fas fa-mobile-alt fa-2x"></i><br>Планшеты</a>
+                        <a href="#"><i class="fas fa-gamepad fa-2x"></i><br>Приставки</a>
+                        <a href="#"><i class="fas fa-ellipsis-h fa-2x"></i><br>Careers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Navbar Dropdowns-->
+<section>
+    <div class="container pastga">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                            aria-label="Slide 4">
+                    </button>
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class=" d-md-inline-block container">
+                        <div class="wrapper-2 container container-22">
+                            <img class="box1" src="images/corusel/corusel1/download1.jpg" alt="corusel">
+                            <img class="box2" src="images/corusel/corusel1/download2.jpg" alt="corusel">
+                            <img class="box3" src="images/corusel/corusel1/download3.jpg" alt="corusel">
+                            <img class="box4" src="images/corusel/corusel1/download4.jpg" alt="corusel">
+                            <img class="box5" src="images/corusel/corusel1/download5.jpg" alt="corusel">
+                            <img class="box6" src="images/corusel/corusel1/download6.jpg" alt="corusel">
+                            <img class="box8" src="images/corusel/corusel1/downold8.png" alt="corusel">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" d-md-inline-block container">
+                        <div class="wrapper-2 container container-22">
+                            <img class="box1" src="images/corusel/corusel2/download1.jpg" alt="corusel">
+                            <img class="box2" src="images/corusel/corusel2/download2.jpg" alt="corusel">
+                            <img class="box3" src="images/corusel/corusel2/download3.jpg" alt="corusel">
+                            <img class="box4" src="images/corusel/corusel2/download4.jpg" alt="corusel">
+                            <img class="box5" src="images/corusel/corusel2/download5.jpg" alt="corusel">
+                            <img class="box6" src="images/corusel/corusel2/download6.jpg" alt="corusel">
+                            <img class="box8" src="images/corusel/corusel2/download8.png" alt="corusel">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" d-md-inline-block container">
+                        <div class="wrapper-2 container container-22">
+                            <img class="box1" src="images/corusel/corusel3/download1.jpg" alt="corusel">
+                            <img class="box2" src="images/corusel/corusel3/download2.jpg" alt="corusel">
+                            <img class="box3" src="images/corusel/corusel3/download3.jpg" alt="corusel">
+                            <img class="box4" src="images/corusel/corusel3/download4.jpg" alt="corusel">
+                            <img class="box5" src="images/corusel/corusel3/download5.jpg" alt="corusel">
+                            <img class="box6" src="images/corusel/corusel3/download6.jpg" alt="corusel">
+                            <img class="box8" src="images/corusel/corusel3/download8.png" alt="corusel">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=" d-md-inline-block container">
+                        <div class="wrapper-2 container container-22">
+                            <img class="box1" src="images/corusel/corusel4/download1.jpg" alt="corusel">
+                            <img class="box2" src="images/corusel/corusel4/download2.jpg" alt="corusel">
+                            <img class="box3" src="images/corusel/corusel4/download3.jpg" alt="corusel">
+                            <img class="box4" src="images/corusel/corusel4/download4.jpg" alt="corusel">
+                            <img class="box5" src="images/corusel/corusel4/download5.jpg" alt="corusel">
+                            <img class="box6" src="images/corusel/corusel4/download6.jpg" alt="corusel">
+                            <img class="box8" src="images/corusel/corusel4/download8.png" alt="corusel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Популярные модели-->
+<section>
+    <div class="container pastga">
+        <h1 class="button">Популярные модели</h1>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row">
+                        <div class="container d-flex">
+                            <div class="card text-center border-0  col-2 col-sm-6" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download1.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone X 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome-1" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download2.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone Xr 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download3.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 7 32GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download4.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 11 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row">
+                        <div class="container d-flex">
+                            <div class="card text-center border-0 col-2 col-sm-6" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download5.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone Xs 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome-1" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download6.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 8 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download7.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 12 Pro Max 128GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download8.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 8 Plus 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="container d-flex">
+                            <div class="card text-center border-0 col-2 col-sm-6" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download9.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 11 Pro 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome-1" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download10.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone 12 mini 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome" style="width: 18rem;">
+                                <div class="card-bodPhoto">
+                                    <img src="images/telefon/download11.jpg" alt="Photos">
+                                    <h5 class="card-title">Samsung Galaxy A51 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                            <div class="card text-center border-0 col-2 col-sm-6 nome" style="width: 18rem;">
+                                <div class="card-body">
+                                    <img src="images/telefon/download12.jpg" alt="Photos">
+                                    <h5 class="card-title">Apple iPhone X 64GB</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Купить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+<!--обзоры-->
+<section>
+    <div class="container pastga">
+        <h1 class="button">Статьи, обзоры, рекомендации</h1>
+        <div class="row d-flex">
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download1.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download2.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download3.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download4.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download5.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download6.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download7.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 border-0" style="width: 18rem;">
+                <img src="images/obzor/download8.jpg" class="card-img-top kvadrat" alt="Photos">
+                <div class="card-body">
+                    <a class="list" href=""><h5 class="card-title">Card title</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<!--Каталог товаров-->
+<section>
+    <div class="container">
+        <h1 class="button">Каталог товаров</h1>
+        <div class="row d-flex">
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22 border-bottom-0">
+                <div class="clllass">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Связь и гаджеты</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="fas fa-tv fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">TV и видео</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Климат</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Туризм и рыбалка</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="fas fa-laptop fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Связь и гаджеты</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="fas fa-headphones-alt fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">TV и видео</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="fas fa-baby-carriage fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Климат</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="fas fa-bicycle fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Туризм и рыбалка</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="fas fa-user-shield fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Связь и гаджеты</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="far fa-carrot fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">TV и видео</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Климат</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Туризм и рыбалка</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="fas fa-camera fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Связь и гаджеты</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float">
+                    <i class="fas fa-tv fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">TV и видео</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Климат</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="border-0 s-catalog-subcat col-md-3 col-sm-6 flex22">
+                <div class="clllass float icon">
+                    <i class="far fa-address-card fa-3x text-primary"></i>
+                </div>
+                <div class="card  border-0 card0000">
+                    <h4 class="size-1">Туризм и рыбалка</h4>
+                    <p class="size">Some quick example text to build on the
+                        card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Как пользоваться сайтом?-->
+<section class="py-5">
+    <div class="container">
+        <div class="card border-1 bor">
+            <div class="left5">
+                <h1 class="card-title">Как пользоваться сайтом?</h1>
+            </div>
+            <div class="card-body flex25">
+                <div>
+                    <i class="far fa-comment-dots fa-7x text-primary"></i>
+                </div>
+                <div class="left4">
+                    <p class="card-text">E-Katalog — многофункциональный сервис поиска товаров в интернет-магазинах и
+                        сравнения цен. Он охватывает самые разнообразные категории товаров: электроника, компьютеры,
+                        бытовая
+                        техника, автотовары, оборудование для ремонта и строительства, туристическое снаряжение, детские
+                        товары и многое другое.
+                        <br><br>
+                        Наша задача - помочь покупателю быстро и удобно найти самое выгодное предложение. Для тех, кто
+                        определяется с выбором, в каждом разделе есть подбор по параметрам и возможность сравнить товары
+                        между собой. Доступен и удобный текстовый поиск, позволяющий искать как нужные разделы, так и
+                        конкретные товары по названию. А на странице каждой модели есть подробная информация, которая
+                        поможет принять решение: описание, технические характеристики, фото и видео, полезные ссылки и
+                        отзывы. Там же находится блок «Где купить?» со списком интернет-магазинов, ценами и прямыми
+                        ссылками
+                        на страницу покупки.
+                        <br><br>
+                        К системе E-Katalog подключено более 1000 магазинов, данные по которым постоянно обновляются.
+                        Благодаря этому вы сможете не только выбрать подходящий товар, но и купить его по самым выгодным
+                        условиям!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</section>
+<!--Новинки-->
+<section>
+    <div class="container">
+        <div class="di row d-flex">
+            <h1>Новинки</h1>
+            <div class="card border-0 d-block col-lg-2 col-sm-4">
+                <ul>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1014</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1013</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1012</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1010</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1009</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1008</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1007</u></a></li>
+                </ul>
+            </div>
+            <div class="card border-0 d-block col-lg-2 col-sm-4 di-id">
+                <ul>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1006</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1005</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1003</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1002</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1001</u></a></li>
+                    <li><a class="id" href="#"><u> Thanos 76170</u></a></li>
+                    <li><a class="id" href="#"><u>Pony Care 10951</u></a></li>
+                </ul>
+            </div>
+            <div class="card border-0 d-block col-lg-2 col-sm-4 di-id">
+                <ul>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1014</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1013</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1012</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1010</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1009</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1008</u></a></li>
+                    <li><a class="id" href="#"><u>Magnitoy GL-1007</u></a></li>
+                </ul>
+            </div>
+            <div class="card border-0 d-block col-lg-2 col-sm-4 di-id">
+                <ul>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1014</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1013</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1012</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1010</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1009</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1008</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1007</u></a></li>
+                </ul>
+            </div>
+            <div class="card border-0 d-block col-lg-2 col-sm-4 di-id">
+                <ul>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1014</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1013</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1012</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1010</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1009</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1008</u></a></li>
+                    <li><a class="id id-1d" href="#"><u>Magnitoy GL-1007</u></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+</section>
+<!--Form-->
+<section>
+    <div class="container">
+        <div class="card border-1 mb-2">
+            <div class="card-body flex2">
+                <div class="d-inline-block">
+                    <img class="d-inline-block" src="icons/korzinki.png" alt="korzinka">
+                </div>
+                <div class="card left7 left6 border-0">
+                    <p class="card-text text-xl">E-Katalog — каталог описаний и цен на бытовую и компьютерную технику,
+                        электронику, товары для дома и офиса. Наша задача помочь подобрать и купить нужную модель по
+                        лучшей цене в интернет-магазинах. В каталоге можно найти всю необходимую для выбора информацию —
+                        сравнение товаров, подбор моделей по параметрам, подробные описания, поиск товара по названию,
+                        отзывы пользователей, фотогалереи товаров, глоссарий терминов, обзоры, инструкции, рейтинг
+                        товаров, рекомендации экспертов, каталог брендов и многое другое. Перепечатка любых материалов
+                        разрешена только с письменного согласия редакции.
+                    </p>
+                    <div class="div-1">
+                        <div class="div-22">
+                            <a class="position" target="_blank" href="https://www.apple.com/app-store/">
+                                <img width="130" height="40" src="icons/ApplStore.svg" alt="ApplStore">
+                            </a>
+                        </div>
+                        <div class="div-23">
+                            <a class="position" target="_blank" href="https://play.google.com/store?hl=ru&tab=r8">
+                                <img class="left8" width="130" height="40" src="icons/PlayMarket.svg" alt="PlayMarket">
+                            </a>
+                        </div>
+                        <div class="div-2 left8">
+                            <a class="" target="_blank" href="https://www.youtube.com/">
+                                <img class="left8" width="40" height="40" src="icons/youtube.svg" alt="youtube">
+                            </a>
+                        </div>
+                        <div class="div-2 left8">
+                            <a class="" target="_blank" href="https://www.vk.com/">
+                                <img class="left8" width="40" height="40" src="icons/vk.svg" alt="vk">
+                            </a>
+                        </div>
+                        <div class="div-2 left8">
+                            <a class="" target="_blank" href="https://www.facebook.com/">
+                                <img class="left8" width="40" height="40" src="icons/facebook.svg" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="div-2 left8">
+                            <a class="" target="_blank" href="https://www.instagram.com/">
+                                <img class="left8" width="40" height="40" src="icons/instagram.svg" alt="instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Script-->
+<section>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</section>
+</body>
+</html>
